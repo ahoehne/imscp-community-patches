@@ -5,9 +5,6 @@
 cd /root/imscp_patch/
 if [ ! -d /root/imscp_patch/.git ]; then
 	git pull
-	#==== Install/ Patching of Debian Packages ====
-	aptitude update && aptitude safe-upgrade
-	aptitude install -y git lsb-release
 	#==== Get actual State of git master ====
 	echo "#### KLONE i-MSCP git/master branch ####"
 	mkdir -p /usr/local/src/imscp
