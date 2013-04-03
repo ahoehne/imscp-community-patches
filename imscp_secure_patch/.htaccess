@@ -1,0 +1,4 @@
+AuthName "doesn't matter"
+AuthType Basic
+AuthUserFile /var/www/secure/.htpasswd
+require valid-user
