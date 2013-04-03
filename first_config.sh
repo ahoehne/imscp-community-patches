@@ -1,6 +1,6 @@
 #!/bin/sh
 # imscp_master repo base from: gOOvER
-
+cd /root/imscp_patch/
 # Requirement: preinstalled community-patcher in /root/imscp_patch ; logged in as root #
 cd /root/imscp_patch/
 if [ ! -d /root/imscp_patch/.git ]; then
