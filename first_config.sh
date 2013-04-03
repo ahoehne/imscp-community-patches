@@ -18,9 +18,7 @@ if [ ! -d /root/imscp_patch/.git ]; then
 		git pull
 	fi
 	
-	# Todo: Modularer Aufbau für Community Patches
-	
-	
+	# Todo: Modularer Aufbau für Community Patches (check nach Unterordnern, pro Unterordner eine Abfrage, ob der Patch genutzt werden soll)
 	
 	#perl /usr/local/src/imscp/imscp-autoinstall 
 else
