@@ -1,7 +1,5 @@
 #!/bin/sh
 cd /root/imscp_patch/
-# Done: Git Check (both)
-
 if [ ! -d /root/imscp_patch/.git ]; then
 	git pull
 	mkdir -p /usr/local/src/imscp
