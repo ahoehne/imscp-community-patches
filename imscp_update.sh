@@ -8,7 +8,9 @@ if [ ! -d /root/imscp_patch/.git ]; then
 		git pull
 		# Todo: Check ob installer ausgeführt wurde (Modulare Config)
 		# Todo: Github Aktualisierungen (imscp_master & imscp_update)#
-		# Todo: Ausgewählte Community Patches anwenden
+		# Todo: Ausgewählte Community Patches anwenden (prepatch)
+		# Todo: imscp installer ausführen
+		# Todo: Ausgewählte Community Patches anwenden (postpatch)
 	else
 		echo 'Please start first_config.sh first'
 	fi
