@@ -18,8 +18,6 @@ if [ ! -d /root/imscp_patch/.git ]; then
 	chmod 700 /root/imscp_patch/imscp_update.sh
 	
 	# Todo: Modularer Aufbau für Community Patches (check nach Unterordnern, pro Unterordner eine Abfrage, ob der Patch genutzt werden soll)
-	
-	#perl /usr/local/src/imscp/imscp-autoinstall 
 else
 	echo 'Cannot find git informations for /root/imscp_patch/ , this script is not installed properly'
 fi
