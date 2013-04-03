@@ -2,8 +2,7 @@
 chmod 700 ~/imscp_patch/imscp_secure_patch/patch.sh
 aptitude update && aptitude safe-upgrade
 aptitude install -y apache2-utils
-echo "
-#!/bin/bash
+echo "#!/bin/bash
 if [ ! -d /var/www/secure ]; then
 else
 	mkdir /var/www/secure
